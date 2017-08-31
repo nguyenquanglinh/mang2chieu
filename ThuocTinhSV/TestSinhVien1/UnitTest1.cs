@@ -9,7 +9,7 @@ namespace TestSinhVien1
     public class UnitTest1
     {
         public List<SinhVien> TaoList()
-        {
+       { 
             var list = new List<SinhVien>();
             list.Add(new SinhVien("nguyen van an", "ha noi", 1, 2, 3, 19));
             list.Add(new SinhVien("nguyen van trung", "ha noi", 1, 2, 3, 19));
