@@ -117,21 +117,21 @@ namespace SapXepMangThyeoThuTu
 
         static void Main(string[] args)
         {
-            Console.Write("nhap so hang  ngang ");
-            int sohang = int.Parse(Console.ReadLine());
-            Console.Write("nhP so hang doc ");
-            int soCot = int.Parse(Console.ReadLine());
-            int[,] a = new int[sohang, soCot];
-            nhap(a);
+            //Console.Write("nhap so hang  ngang ");
+            //int sohang = int.Parse(Console.ReadLine());
+            //Console.Write("nhP so hang doc ");
+            //  int soCot = int.Parse(Console.ReadLine());
+            int[,] a = new int[3, 3] { { 9, 8, 7, }, { 6, 5, 4 }, { 3, 2, 1 } };
+            //   nhap(a);
             Console.WriteLine("----------------------");
             Xuat(a);
             Console.WriteLine("------------------------");
-            if (soCot == sohang)
-            {
-                Xuat(SapXepTheoHinhVuong(a));
-            }
-            else
-                Xuat(SapXepTheoThuTuTangDanCuahang(a));
+            //if (soCot == sohang)
+            //{
+            //    Xuat(SapXepTheoHinhVuong(a));
+            //}
+            //else
+         //   Xuat(SapXepTheoThuTuTangDanCuahang(a, 2, 3));
 
             Console.ReadLine();
         }

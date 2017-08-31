@@ -43,7 +43,7 @@ namespace ClassHop
         {
          int cao=0, rong=0, dai=0;
             var b = new Hop(cao, rong, dai);
-            var a = new Hop(1,2,3);
+            
             var r = b.Nhap();
             Console.WriteLine(r.TheTich());
             Console.ReadKey();
