@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{796B1F9C-D8D3-425C-A421-CAC24EFB722D}</ProjectGuid>
+    <ProjectGuid>{AB086D1A-0B24-49B9-BB84-6AF979B29A6B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VongTron</RootNamespace>
-    <AssemblyName>VongTron</AssemblyName>
+    <RootNamespace>TestKeyValue</RootNamespace>
+    <AssemblyName>TestKeyValue</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DiemVongTron\DiemVongTron.csproj">
-      <Project>{f8df67c9-2ea3-4594-a077-a15df9e02a50}</Project>
-      <Name>DiemVongTron</Name>
+    <ProjectReference Include="..\DemSoLanXuatHienCuaMotSo\DemSoLanXuatHienCuaMotSo.csproj">
+      <Project>{b4b3a6b9-407c-4258-8a82-18a50eb5f4c0}</Project>
+      <Name>DemSoLanXuatHienCuaMotSo</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

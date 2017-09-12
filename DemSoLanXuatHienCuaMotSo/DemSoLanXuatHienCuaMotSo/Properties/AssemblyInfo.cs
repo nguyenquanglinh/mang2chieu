@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ClassBox")]
+[assembly: AssemblyTitle("DemSoLanXuatHienCuaMotSo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("ClassBox")]
+[assembly: AssemblyProduct("DemSoLanXuatHienCuaMotSo")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5a21fa32-067b-47df-bc51-6193195319a5")]
+[assembly: Guid("b4b3a6b9-407c-4258-8a82-18a50eb5f4c0")]
 
 // Version information for an assembly consists of the following four values:
 //

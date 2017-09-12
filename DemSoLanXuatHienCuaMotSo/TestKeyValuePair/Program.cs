@@ -4,16 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestClass
+namespace TestKeyValuePair
 {
     class Program
     {
-        public double Weight;
-        public double Height;
-
-        public void Run()
+        static void Main(string[] args)
         {
-            Console.WriteLine(" Animal is running. . .");
         }
     }
 }

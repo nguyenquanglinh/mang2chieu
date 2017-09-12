@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ClassSinhVien")]
+[assembly: AssemblyTitle("TestKeyValue")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("ClassSinhVien")]
+[assembly: AssemblyProduct("TestKeyValue")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ea8675c2-cb0a-433b-8bd0-c8e603e77c17")]
+[assembly: Guid("ab086d1a-0b24-49b9-bb84-6af979b29a6b")]
 
 // Version information for an assembly consists of the following four values:
 //
