@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VongTron")]
+[assembly: AssemblyTitle("TestPhanSo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("VongTron")]
+[assembly: AssemblyProduct("TestPhanSo")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("796b1f9c-d8d3-425c-a421-cac24efb722d")]
+[assembly: Guid("4ad9b5b8-473c-4a34-90a0-6aef9b6bb23f")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33166F06-7581-4158-8A8A-2F4FBC59B1BD}</ProjectGuid>
+    <ProjectGuid>{4AD9B5B8-473C-4A34-90A0-6AEF9B6BB23F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestTuDien</RootNamespace>
-    <AssemblyName>TestTuDien</AssemblyName>
+    <RootNamespace>TestPhanSo</RootNamespace>
+    <AssemblyName>TestPhanSo</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TuDien\TuDien.csproj">
-      <Project>{d0ca5a99-d562-44f1-b1f2-385f2753de31}</Project>
-      <Name>TuDien</Name>
+    <ProjectReference Include="..\fraction\fraction.csproj">
+      <Project>{b63e48ec-93f2-4bd1-b8a1-f9d546e6942e}</Project>
+      <Name>fraction</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
