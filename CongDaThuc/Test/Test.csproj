@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{56AC0313-28E3-4AEF-BE03-79FA1E1DF47F}</ProjectGuid>
+    <ProjectGuid>{AB261F36-EBD8-4170-8527-8A7D4B964157}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KiemTraThuatToan</RootNamespace>
-    <AssemblyName>KiemTraThuatToan</AssemblyName>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,14 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="list.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SapXepTheoThuTuTangGiamCoViTriChoTruoc\SapXepTheoThuTuTangGiamCoViTriChoTruoc.csproj">
-      <Project>{922e2e75-63cc-4f11-9230-8d16c33028b1}</Project>
-      <Name>SapXepTheoThuTuTangGiamCoViTriChoTruoc</Name>
+    <ProjectReference Include="..\CongDaThuc\CongDaThuc.csproj">
+      <Project>{7d6d15f4-3419-4990-b1b1-655d03f5d9d3}</Project>
+      <Name>CongDaThuc</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
