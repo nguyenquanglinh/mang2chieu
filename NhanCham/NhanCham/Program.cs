@@ -34,6 +34,8 @@ namespace NhanCham
                     c[i, j] = tong;
                 }
             }
+
+
             int p = 0, q;
             for (int i = 1; i < m - 1; i++)
             {
@@ -48,12 +50,11 @@ namespace NhanCham
             return a;
         }
 
-        public static int[,] CachHaiNhanCham(int[,] a, int[,] b)
+        public static int[,] CachHaiNhanChap(int[,] a, int[,] b)
         {
-            var ret = a.Clone() as int[,];
-            var m = a.GetLength(0);
+             var ret = a.Clone() as int[,];
+           var m = a.GetLength(0);
             var n = a.GetLength(1);
-           
             for (int i = 1; i < m - 1; i++)
             {
                 for (int j = 1; j < n - 1; j++)
